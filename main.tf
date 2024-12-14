@@ -14,7 +14,7 @@ provider "aws" {
 
 # Create a VPC
 resource "aws_instance" "web_server" {
-  ami           = "ami-07ee04759daf109de" # Replace with the desired AMI ID
+  ami           = "ami-0453ec754f44f9a4a" # Replace with the desired AMI ID
   instance_type = "t2.micro"
   tags = {
     Name = "web-server"
